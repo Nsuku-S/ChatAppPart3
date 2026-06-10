@@ -27,7 +27,7 @@ public class Message {
         this.messageHash    = generateMessageHash();
     }
 
-    // ── Validation ────────────────────────────────────────────────
+    // ── VALIDATION ────────────────────────────────────────────────
 
     /** Message ID must be 10 digits or fewer. */
     public boolean checkMessageID() {
@@ -58,7 +58,7 @@ public class Message {
         return (messageNumber + ":" + firstWord + ":" + lastWord).toUpperCase();
     }
 
-    // ── Display ───────────────────────────────────────────────────
+    // ── DISPLAY ───────────────────────────────────────────────────
 
     public String displayMessage() {
         return "Message ID: "      + messageID      + "\n"
@@ -68,7 +68,7 @@ public class Message {
              + "Message Number: "  + messageNumber;
     }
 
-    // ── Getters ───────────────────────────────────────────────────
+    // ── GETTERS ───────────────────────────────────────────────────
 
     public String getMessageID()      { return messageID;      }
     public String getRecipient()      { return recipient;      }
