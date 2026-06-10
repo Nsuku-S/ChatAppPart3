@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Part 2: Send messages
  * Part 3: Stored messages sub-menu, search, delete, report
  *
- * Student: ST10482781
+ * Student: ST10516027
  */
 public class MainApp {
 
