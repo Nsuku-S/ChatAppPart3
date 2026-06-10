@@ -54,7 +54,7 @@ public class MessageManager {
     }
 
     /**
-     * Records a message as STORED (saved for later, not sent).
+     * Records a message as STORED (saved for later, NOT sent).
      */
     public static String storeMessage(Message msg) {
         storedMessages.add(msg.getMessageContent());
