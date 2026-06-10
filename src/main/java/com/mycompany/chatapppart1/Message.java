@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * Represents a single chat message.
  * Handles validation, hash generation, and formatting.
- 
+ * Student :
  */
 public class Message {
 
