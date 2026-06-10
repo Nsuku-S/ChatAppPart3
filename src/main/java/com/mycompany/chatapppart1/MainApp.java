@@ -28,7 +28,7 @@ public class MainApp {
         System.out.println("  Welcome to QuickChat  |    ");
         System.out.println("========================================\n");
 
-        // ── Register ──────────────────────────────────────────────
+        // ── REGISTRATION ──────────────────────────────────────────────
         System.out.println("--- REGISTER ---");
         System.out.print("First Name: ");
         String firstName = scanner.nextLine();
