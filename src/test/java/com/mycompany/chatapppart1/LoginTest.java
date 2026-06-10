@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Login unit tests (carried over from Part 1 & 2).
- * Student: ST10482781
+ * Student: ST10516027
  */
 public class LoginTest {
 
