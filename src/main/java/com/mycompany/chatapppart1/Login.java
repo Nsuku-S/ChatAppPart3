@@ -2,7 +2,7 @@ package com.mycompany.chatapppart1;
 
 /**
  * Handles user registration and login.
- * Student: ST10482781
+ * Student: ST10516027
  */
 public class Login {
 
