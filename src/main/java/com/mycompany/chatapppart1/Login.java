@@ -12,7 +12,7 @@ public class Login {
     private String registeredLastName = "";
     private String registeredCellNumber = "";
 
-    // ── Registration ──────────────────────────────────────────────
+    // ── REGISTRATION ──────────────────────────────────────────────
 
     /**
      * Checks that the username contains an underscore and is 5 chars or less.
@@ -88,7 +88,7 @@ public class Login {
         return sb.toString();
     }
 
-    // ── Login ─────────────────────────────────────────────────────
+    // ── LOGIN ─────────────────────────────────────────────────────
 
     /** Returns true if the username and password match the registered user. */
     public boolean loginUser(String username, String password) {
@@ -105,7 +105,7 @@ public class Login {
         return "Username or password incorrect, please try again.";
     }
 
-    // ── Getters ───────────────────────────────────────────────────
+    // ── GETTERS ───────────────────────────────────────────────────
 
     public String getRegisteredUsername()   { return registeredUsername;   }
     public String getRegisteredFirstName()  { return registeredFirstName;  }
