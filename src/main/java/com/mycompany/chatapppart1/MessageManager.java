@@ -220,7 +220,7 @@ public class MessageManager {
         return sb.toString();
     }
 
-    // ── Getters (used by tests) ───────────────────────────────────
+    // ── GETTERS (used by tests) ───────────────────────────────────
 
     public static List<String> getSentMessages()        { return sentMessages;        }
     public static List<String> getStoredMessages()      { return storedMessages;      }
